@@ -1,3 +1,7 @@
+provider "aws" {
+region = "eu-north-1"
+}
+
 variable "env" {
   description = "Environment (dev/staging/prod)"
   type        = string
@@ -20,13 +24,13 @@ variable "private_subnet_cidr_2" {
 }
 
 variable "public_az" {
-  default = "ap-south-1a"
+  default = "eu-north-1a"
 }
 
 variable "private_az" {
-  default = "ap-south-1b"
+  default = "eu-north-1b"
 }
 
 variable "private_az_2" {
-  default = "ap-south-1c"
+  default = "ei-north-1c"
 }
