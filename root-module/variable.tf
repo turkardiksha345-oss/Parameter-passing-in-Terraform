@@ -17,7 +17,7 @@ variable "key_name" {
 
 variable "bucket_name" {
   description = "S3 bucket base name"
-  default = "diksha-s3-bucket-env"
+  default = "diksha-bucket-env"
 }
  
 variable "engine" {
