@@ -32,5 +32,5 @@ variable "private_az" {
 }
 
 variable "private_az_2" {
-  default = "ei-north-1c"
+  default = "eu-north-1c"
 }
